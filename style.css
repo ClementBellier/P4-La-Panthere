@@ -818,11 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere-min.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,31 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*
+
+Ajout pour corrections SEO / Accessiblité
+
+*/
+
+.title-service{
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.1em;
+    padding-bottom: 15px;
+}
+.citation{
+    font-size: 1.4em;
+    font-style: italic;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    max-width: 520px;
+    margin: auto;
+}
+.author{
+    font-size: 1.4em;
+    color: #747474 !important;
+    letter-spacing: 0;
 }
